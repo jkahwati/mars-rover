@@ -4,7 +4,7 @@ const Rover = require('./rover')
 let rover = new Rover([0,0], "este")
 // let inicial
 
-let entrada = "MMMMMRRMMMMMM"
+let entrada = "MMMMMMMMMMM"
 
 for (var i = 0; i < entrada.length; i++) {
     var caracter = entrada.charAt(i)

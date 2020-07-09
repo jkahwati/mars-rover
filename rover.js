@@ -46,7 +46,7 @@ module.exports = class Rover {
                 if(x<9)
                     x++;
                 else
-                    x = 9
+                    x = 0
                 break;
             case  "oeste":
                 if(x>0)
@@ -58,7 +58,6 @@ module.exports = class Rover {
 
         this.posicionInicial[0] = x;
         this.posicionInicial[1] = y;
-
     }
 
 // deberia devolver la matriz donde queda parado. ejemplo [2,3]
